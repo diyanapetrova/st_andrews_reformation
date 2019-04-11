@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
 }
 
 class HomeGrid extends StatelessWidget {
-  final pages = ["People", "Places", "Timeline", "Sources"];
+  final pages = ["People", "Places", "Timeline", "Sources", "More"];
 
   @override
   Widget build(BuildContext context) {

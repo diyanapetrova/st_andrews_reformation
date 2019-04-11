@@ -6,6 +6,7 @@ import 'package:st_andrews_reformation/model/person.dart';
 import 'package:st_andrews_reformation/model/place.dart';
 import 'package:st_andrews_reformation/model/resource.dart';
 import 'package:st_andrews_reformation/model/source.dart';
+import 'package:st_andrews_reformation/pages/acknowledgement_page.dart';
 import 'package:st_andrews_reformation/pages/home_page.dart';
 import 'package:st_andrews_reformation/pages/people_page.dart';
 import 'package:st_andrews_reformation/pages/places_page.dart';
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
         '/Places': (context) => PlacesPage(),
         '/Timeline': (context) => TimelinePage(),
         '/Sources': (context) => SourcesPage(),
+        '/More': (context) => AcknowledgementPage(),
       },
     );
   }

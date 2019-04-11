@@ -9,24 +9,25 @@ class PeoplePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-        backgroundColor: Palette.blue,
-      ),
-      body: Container(
-        child: SingleChildScrollView(
-          child: Column(
-              children: people
-                  .map((person) => ResourceSummary(person, true))
-                  .toList()),
+        appBar: AppBar(
+          title: Text(title),
+          backgroundColor: Palette.blue,
         ),
-        decoration: new BoxDecoration(
-          image: new DecorationImage(
-            image: new AssetImage("images/home.jpg"),
-            fit: BoxFit.cover,
+        body: Container(
+          child: SingleChildScrollView(
+            child: Column(
+                children: people
+                    .map((person) => ResourceSummary(person, true))
+                    .toList()),
           ),
-        ),
-      ),
-    );
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(
+                "images/home.jpg",
+              ),
+              fit: BoxFit.cover,
+            ),
+          ),
+        ));
   }
 }
