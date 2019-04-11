@@ -60,56 +60,13 @@ class AppSearch extends SearchDelegate {
 
   @override
   Widget buildResults(BuildContext context) {
-    if (query.length < 3) {
-      return Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Center(
-            child: Text(
-              "Search term must be longer than two letters.",
-            ),
-          )
-        ],
-      );
-    }
-
-    //get results
     List<String> searchable = content.keys.toList();
 
     List<String> filtered = searchable
         .where((entry) => entry.toLowerCase().contains(query.toLowerCase()))
         .toList();
 
-    if (filtered.length == 0) {
-      return Column(
-        children: <Widget>[
-          Text(
-            "No Results Found.",
-          ),
-        ],
-      );
-    } else {
-      return ListView.builder(
-        itemCount: filtered.length,
-        itemBuilder: (context, index) {
-          var result = filtered[index];
-          return ListTile(
-            title: Text(result),
-          );
-        },
-      );
-    }
-  }
-
-  @override
-  Widget buildSuggestions(BuildContext context) {
-    List<String> searchable = content.keys.toList();
-
-    List<String> filtered = searchable
-        .where((entry) => entry.toLowerCase().contains(query.toLowerCase()))
-        .toList();
-
-    if (filtered.isEmpty)
+    if (filtered.isNotEmpty)
       return ListView.builder(
           itemCount: filtered.length,
           itemBuilder: (context, index) {
@@ -127,5 +84,37 @@ class AppSearch extends SearchDelegate {
               },
             );
           });
+    else
+      return Text("No results found!");
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    List<String> searchable = content.keys.toList();
+
+    List<String> filtered = searchable
+        .where((entry) => entry.toLowerCase().contains(query.toLowerCase()))
+        .toList();
+
+    if (filtered.isNotEmpty)
+      return ListView.builder(
+          itemCount: filtered.length,
+          itemBuilder: (context, index) {
+            var result = filtered[index];
+            return GestureDetector(
+              child: ListTile(
+                title: Text(result),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => DetailsPage(content[result])),
+                );
+              },
+            );
+          });
+    else
+      return Text("No results found!");
   }
 }
