@@ -41,7 +41,7 @@ class ResourceSummary extends StatelessWidget {
   List<Widget> stack(BuildContext context) {
     List<Widget> stack = List();
     stack.add(_card(context));
-    if (resource is Person) stack.add(_image(resource));
+    if (resource is Person && horizontal) stack.add(_image(resource));
     return stack;
   }
 
@@ -95,7 +95,7 @@ class ResourceSummary extends StatelessWidget {
   Widget cardContent(BuildContext context) {
     return Container(
         margin: EdgeInsets.fromLTRB(
-            horizontal && resource is Person ? 76.0 : 16.0,
+            horizontal && resource is Person ? 60.0 : 16.0,
             !horizontal && resource is Person ? 42.0 : 16.0,
             16.0,
             16.0),

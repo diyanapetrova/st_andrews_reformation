@@ -36,10 +36,11 @@ class Common {
                 ),
                 backgroundColor: Palette.blue,
                 onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => DetailsPage(content[ref])));
+                  if (content[ref] != null)
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => DetailsPage(content[ref])));
                 }))
             .toList());
   }
