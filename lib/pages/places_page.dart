@@ -29,12 +29,12 @@ class PlacesPage extends StatelessWidget {
                 layers: [
                   new TileLayerOptions(
                       urlTemplate:
-                          "https://api.mapbox.com/v4/{id}/{z}/{x}/{y}@2x.png?style=mapbox://styles/dp68/cjsbwdmgg1gnz1fquorvwwr7o@00&access_token={accessToken}",
+                      "https://api.mapbox.com/styles/v1/{username}/{style_id}/tiles/512/{z}/{x}/{y}@2x?access_token={accessToken}",
                       additionalOptions: {
                         'accessToken':
-                            'pk.eyJ1IjoiZHA2OCIsImEiOiJjanM0aTRhdzQwNHQ1M3lsZGllcnhiZGZ2In0.UyG0-n898ZL2m6sPducIrA',
-                        'id': 'mapbox.streets'
-                        //'mapbox.mapbox-streets-v8,dp68.cjskc5fgt1l332yqzp4tc4a0h-7lc1w',
+                        'pk.eyJ1IjoiZHA2OCIsImEiOiJjanM0aTRhdzQwNHQ1M3lsZGllcnhiZGZ2In0.UyG0-n898ZL2m6sPducIrA',
+                        'username': 'dp68',
+                        'style_id': 'cjsbwdmgg1gnz1fquorvwwr7o'
                       }),
                   new MarkerLayerOptions(markers: _markers(context))
                 ],

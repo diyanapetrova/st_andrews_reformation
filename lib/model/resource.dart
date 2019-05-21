@@ -1,4 +1,4 @@
-class Resource {
+abstract class Resource {
   final String name;
   final String summary;
 

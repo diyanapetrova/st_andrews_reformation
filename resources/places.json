@@ -73,5 +73,126 @@
       "Castle",
       "John Knox"
     ]
+  },
+  {
+    "name": "Blackfriars",
+    "lat": 56.338890,
+    "lon": -2.797962,
+    "image": "images/places/castle.jpg",
+    "icon": "images/icons/place.png",
+    "summary": "Site of Dominican Friary",
+    "text": [
+      "The Dominican order was founded in the early thirteenth century with the specific aims of preaching and fighting heresy. The Dominicans (also known as the black friars) came to St Andrews in the mid-fifteenth century. They expanded their presence in the city in the early sixteenth century, when they undertook major rebuilding work, including constructing an extension on the north side of their church (the remains of which can still be seen on South Street).",
+      "In general the Dominicans were committed Catholics, and a Dominican friar named Alexander Campbell played a key role in the trial and execution of Patrick Hamilton. However, on occasions the Dominicans’ preaching tradition could ignite controversy with the Catholic authorities. In 1536 the head of the Dominicans in St Andrews, Friar Alexander Seton, gave a series of controversial Lent sermons, which resulted in a major dispute with Archbishop James Beaton.",
+      "In the summer 1559 the black friars’ convent on South Street was one of the key locations attacked by the Reformers. According to a contemporary legal document the black friars were ‘violently expelled’ from their place. In April 1561 Friar John Grierson, the former head of the Dominican order in Scotland, complained that the St Andrews’ black friars’ church, cloister, and dormitories lay in ruins, and the friars were living in poverty."
+    ],
+    "references": [
+      "Patrick Hamilton",
+      "Friar Alexander Seton",
+      "Archbishop James Beaton",
+      "Friar John Grierson"
+    ]
+  },
+  {
+    "name": "Greyfriars",
+    "lat": 56.341097,
+    "lon": -2.799158,
+    "image": "images/places/castle.jpg",
+    "icon": "images/icons/place.png",
+    "summary": "Site of Franciscan Friary",
+    "text": [
+      "The Franciscan friary in St Andrews was founded in the mid-fifteenth century by Bishop James Kennedy. The Franciscans (or grey friars) were active preachers and took strict vows of personal and institutional poverty.",
+      "The St Andrews Franciscans seem to have had a good relationship with Cardinal David Beaton who made regular gifts of grain and money to the friary. The Franciscans actively assisted with the major heresy trials in sixteenth-century St Andrews – which perhaps contributed to their unpopularity at the Reformation.",
+      "On 18 May 1559 the St Andrews Franciscans handed over their property in St Andrews to the city officials. This grant may have been triggered by the sack of the friaries in Perth earlier in the month. Following St Andrews’ official adoption of Protestantism in June 1559 the grey friars left the city and went into exile on the Continent. The friary buildings were demolished, and the site is now covered by the street known as Greyfriars Garden."
+    ],
+    "references": [
+      "Cardinal David Beaton"
+    ]
+  },
+  {
+    "name": "St Leonard’s College",
+    "lat": 56.339237,
+    "lon": -2.790355,
+    "image": "images/places/castle.jpg",
+    "icon": "images/icons/place.png",
+    "summary": "Reformist Sympathising University College",
+    "text": [
+      "St Leonard’s College had close ties to St Andrews Cathedral. The college was founded in 1512 by the cathedral’s prior, John Hepburn, and by Alexander Stewart, then archbishop of St Andrews (and an illegitimate son of James IV). Until the Reformation the cathedral exerted considerable influence over St Leonard’s lands and administration, and many of the early academics at the college were also canons at the cathedral.",
+      "Before the establishment of a college, the St Leonard’s site had been a hospital providing accommodation for pilgrims visiting the cathedral. However, by the early sixteenth century pilgrimage to St Andrews had declined, and the hospital was occupied by a group of poor elderly women, who (according the college’s foundation charter) gave ‘little or no return in devotion or duty’. These women were cast out to make way for the new college where men would be educated ‘to the glory of God and the spiritual edification of the people’.",
+      "During the mid-sixteenth century St Leonard’s College acquired a reputation for being sympathetic to religious reform. John Knox records how following the execution of Patrick Hamilton many at the college began to question ‘the vanity of the received superstition’. According to one slightly later tradition early Scottish Protestants were sometimes said to ‘have drunk of St Leonard’s well’."
+    ],
+    "references": [
+      "Cathedral",
+      "John Knox",
+      "Patrick Hamilton"
+    ]
+  },
+  {
+    "name": "St Mary’s College",
+    "lat": 56.339302,
+    "lon": -2.794314,
+    "image": "images/places/castle.jpg",
+    "icon": "images/icons/place.png",
+    "summary": "University College Founded to Fight Heresy",
+    "text": [
+      "At the time of the Reformation, St Mary’s College on South Street was often referred to as the ‘New College’. St Mary’s was the last of the three university college founded in St Andrews before the Reformation.",
+      "Plans for a college dedicated to the Virgin Mary were put together by Archbishop James Beaton shortly before his death in 1539. His nephew and successor Cardinal David Beaton commissioned new buildings for the college. French masons came to advise on the construction work, while marble for the altar in the college chapel was shipped by boat to St Andrews. Cardinal Beaton’s murder in May 1546 delayed the college’s completion. However, Archbishop John Hamilton supported further work, and in the 1550s St Mary’s opened its doors to students.",
+      "The college was intended by its founders to educate Catholic churchmen to resist heresy and schism. Yet, when St Andrews officially adopted Protestantism in the summer of 1559, most of the St Mary’s academics seem to have outwardly accepted the religious changes. In the later sixteenth century the college was reorganised to provide a Protestant religious education. It remains the Divinity department for the University of St Andrews."
+    ],
+    "references": [
+      "Archbishop James Beaton",
+      "Cardinal David Beaton",
+      "Archbishop John Hamilton"
+    ]
+  },
+  {
+    "name": "St Mary’s on The Rock",
+    "lat": 56.339900,
+    "lon": -2.785263,
+    "image": "images/places/castle.jpg",
+    "icon": "images/icons/place.png",
+    "summary": "Catholic Church Closed at the Reformation",
+    "text": [
+      "The Church of St Mary’s on the Rock, also known as St Mary’s Kirk Heuch, was sited on the cliffs overlooking the harbour, not far from the cathedral walls. It was a collegiate church – by which is meant a church run by a self-governing community of priests (in many ways rather like a cathedral chapter). During the late Middle Ages St Mary’s was a royal chapel, but it probably lost this status in the early 1500s.",
+      "St Mary’s on the Rock was reputedly sacked during the the Reformation of 1559. In April 1561 John Winram, by then the Protestant Superintendent of Fife, decreed that St Mary’s was ‘a profane house’. It was perhaps around this time that the church building was demolished, leaving the cross-shaped foundations which can be seen today.",
+      "While some of the priests attached to St Mary’s at the Reformation joined the Protestant Kirk, others resisted. One of the St Mary’s priests who rejected the religious changes was a man named Thomas Methven. In August 1561 Methven was summoned before John Winram to account for his refusal to join the Protestant Congregation. Methven retorted that ‘he was neither a Papist, nor a Calvinist, nor of Paul, nor of Apollo, but Jesus Christ’s man’."
+    ],
+    "references": [
+      "John Winram"
+    ]
+  },
+  {
+    "name": "St Salvator’s College",
+    "lat": 56.341819,
+    "lon": -2.794224,
+    "image": "images/places/castle.jpg",
+    "icon": "images/icons/place.png",
+    "summary": "University College and Site of Patrick Hamilton’s Execution",
+    "text": [
+      "St Salvator’s College (literally the College of the Holy Saviour) was founded in the mid-fifteenth century by Bishop James Kennedy with the aims of furthering ‘divine wisdom’ and strengthening Catholicism against heresy and schism. Kennedy’s foundation was inspired by the university colleges at Oxford and Cambridge.",
+      "At the time of the Reformation St Salvator’s was the most established of the three university colleges in St Andrews. In 1528 the Reformer Patrick Hamilton was burnt as a heretic outside the gates of St Salvator’s. The approximate site of the execution is marked by a PH in the cobbles on the pavement.",
+      "When the St Andrews’ authorities subsequently embraced Protestantism several of the academics at St Salvator’s remained loyal to Catholicism and went into exile. The college’s provost William Cranston was among the masters who refused to convert. Cranston left St Andrews, reputedly taking with him ‘jewels and very costly silver work’."
+    ],
+    "references": [
+      "Patrick Hamilton",
+      "William Cranston"
+    ]
+  },
+  {
+    "name": "Tolbooth",
+    "lat": 56.340422,
+    "lon": -2.796075,
+    "image": "images/places/castle.jpg",
+    "icon": "images/icons/place.png",
+    "summary": "The Seat of Local Government",
+    "text": [
+      "St Andrews’ Tolbooth (or town hall) was located in the middle of Market Street. The medieval building was demolished in the nineteenth century, but the outline of its foundations is marked in the modern paving on the road.",
+      "The Tolbooth was the heart of St Andrews’ local secular government. In the sixteenth century the St Andrews burgh council and burgh court met here. The burgh council played a key role in St Andrews’ decision to reject Catholicism, and seem to have actively endorsed attacks on the city’s religious houses in the summer of 1559.",
+      "Following the Reformation the burgh council initally co-operated with the Protestant church authorities, and there was considerable overlap between the burgh officials and the members of the Kirk Session at Holy Trinity Church. In the mid 1560s a new council chamber was built at the west end of the Tolbooth with money which had previously been allocated to the upkeep of Catholic chaplainries at Holy Trinity.",
+      "Later in the sixteenth century relations between the burgh council and the Protestant ministers of Holy Trinity deteriorated. In the 1580s it was alleged that the burgh council were preventing the minister receiving his stipend by conspiring with local gentlemen, and spending the money on ‘golf, archery, and good cheer’."
+    ],
+    "references": [
+      "Holy Trinity"
+    ]
   }
 ]

@@ -60,32 +60,8 @@ class AppSearch extends SearchDelegate {
 
   @override
   Widget buildResults(BuildContext context) {
-    List<String> searchable = content.keys.toList();
-
-    List<String> filtered = searchable
-        .where((entry) => entry.toLowerCase().contains(query.toLowerCase()))
-        .toList();
-
-    if (filtered.isNotEmpty)
-      return ListView.builder(
-          itemCount: filtered.length,
-          itemBuilder: (context, index) {
-            var result = filtered[index];
-            return GestureDetector(
-              child: ListTile(
-                title: Text(result),
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => DetailsPage(content[result])),
-                );
-              },
-            );
-          });
-    else
-      return Text("No results found!");
+    // The suggestions are dynamically filtered and are already displayed on
+    // the screen, so there is no need for any actions here.
   }
 
   @override
